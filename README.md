@@ -25,7 +25,7 @@ The project utilizes the following technologies and tools:
 - **[TypeScript](https://www.typescriptlang.org/):**: A statically typed superset of JavaScript that adds static types, is used for safer and more reliable coding.
 - **[Vite](https://vitejs.dev/)**: A next-generation front-end build tool and development server, is used for faster and leaner development.
 
-### BackendInserting
+### Backend
 
 1. **[TypeScript](https://www.typescriptlang.org/):** It's a typed superset of JavaScript, adding static types to the language. It helps in making the code more readable and less prone to runtime errors.
 2. **[Express](https://expressjs.com/):** A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
@@ -38,8 +38,6 @@ The project utilizes the following technologies and tools:
 9. **[Nodemon](https://nodemon.io/):** A tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 10. **[ESLint](https://eslint.org/):** A tool for identifying and reporting on patterns in JavaScript, helping developers write consistent code and find and fix errors.
 11. **[Prettier](https://prettier.io/):** An opinionated code formatter that enforces a consistent style by parsing your code and reprinting it with its own rules.
-12. **[Jest](https://jestjs.io/):** A delightful JavaScript Testing Framework with a focus on simplicity.
-13. **[Serverless-http](https://www.npmjs.com/package/serverless-http):** A library to wrap your Node.js 'http/s' server for serverless use, making it easier to integrate with AWS Lambda and AWS HTTP API.
 
 ### Database
 
@@ -168,22 +166,9 @@ This ReactJS project has a structured and organized directory layout. Here's wha
     │       └── user-data-source.interface.ts
     ├── instances
     │   └── user-database.ts
-    ├── seeders
-    │   ├── index.ts
-    │   └── user.seeder.ts
     └── data-sources
         └── mongodb
            └── mongodb-user-data-source.ts
-
-/test
-│── main.tsx
-│── data
-│   └── data-sources
-│       └── mongodb
-│           └── mongodb-user-data-source.spec.ts
-└── domain
-    └── repositories
-        └── user.repository.spec.ts
 
 ```
 
